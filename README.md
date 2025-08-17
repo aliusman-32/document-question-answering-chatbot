@@ -30,8 +30,8 @@ A web-based chatbot that allows users to upload PDF documents and ask questions,
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/aliusman-32/document-question-answering-chatbot.git
-cd document-question-answering-chatbot
+git clone https://github.com/aliusman-32/pdf-RAG-qa-chatbot.git
+cd pdf-RAG-qa-chatbot
 
 ##Repository Structure
 .
