@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF Q&A Bot</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex flex-col h-screen">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white text-center py-4 text-xl font-semibold shadow">
+        📄 PDF Question-Answer ChatBot
+    </header>
+
+    <!-- PDF Upload -->
+    <div class="p-4">
+        <input type="file" id="pdf-upload" accept="application/pdf" 
+               class="block w-full text-sm text-gray-700 border border-gray-300 rounded-lg cursor-pointer bg-white shadow-sm">
+    </div>
+
+    <!-- Chat Container -->
+    <div id="chat-container" class="flex-1 overflow-y-auto px-4 space-y-4">
+        <!-- Messages will appear here -->
+    </div>
+
+    <!-- Input Area -->
+    <div class="bg-white p-4 flex items-center border-t border-gray-200">
+    <textarea id="question" placeholder="Ask a question..." 
+        rows="1"
+        class="flex-1 px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none overflow-hidden"></textarea>
+    <button id="send-btn" 
+        class="ml-3 px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
+        Send
+    </button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
